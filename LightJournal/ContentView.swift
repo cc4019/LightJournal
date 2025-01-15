@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  demo_test
+//  LightJournal
 //
 //  Created by Chuci Chen on 1/14/25.
 //
@@ -47,7 +47,7 @@ struct ContentView: View {
                 }
             }
             .padding()
-            .navigationTitle("SnapJournal")
+            .navigationTitle("LightJournal")
             .navigationDestination(isPresented: $showingNewEntry) {
                 if let lastEntry = journals.last {
                     DialogueView(entry: lastEntry)

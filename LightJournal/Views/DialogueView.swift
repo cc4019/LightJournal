@@ -1,3 +1,9 @@
+//
+//  DialogueView.swift
+//  LightJournal
+//
+//  Created by Chuci Chen on 1/14/25.
+//
 import SwiftUI
 import SwiftData
 

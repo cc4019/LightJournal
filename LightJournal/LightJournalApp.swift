@@ -1,6 +1,6 @@
 //
-//  demo_testApp.swift
-//  demo_test
+//  LightJournalApp.swift
+//  LightJournal
 //
 //  Created by Chuci Chen on 1/14/25.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct demo_testApp: App {
+struct LightJournalApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             JournalEntry.self,
@@ -29,4 +29,4 @@ struct demo_testApp: App {
         }
         .modelContainer(sharedModelContainer)
     }
-}
+} 
